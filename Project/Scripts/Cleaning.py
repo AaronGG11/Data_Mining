@@ -50,7 +50,7 @@ def main():
     join = pd.concat(dataframes)
 
     # saving the new csv file
-    join.to_csv(path + "airbnb.csv")
+    join.to_csv(path + "airbnb.csv", index=False)
 
 
 if __name__ == "__main__":
