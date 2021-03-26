@@ -23,11 +23,11 @@ def main():
             datos = pd.read_csv(path + '/' + directory + '/' + name_file, header=0)
             df = pd.DataFrame(datos)
 
-            # Completing empty values --- 
+            # Completing empty values --- comodin 01012000
             df['reviews_per_month'] = df['reviews_per_month'].fillna(value=0)
-            day_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2018')).dt.day
-            month_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2018')).dt.month
-            year_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2018')).dt.year
+            day_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2000')).dt.day
+            month_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2000')).dt.month
+            year_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2000')).dt.year
 
             # Pulling away last review date in day, month and year ---
             df  = df.assign(day_last_review=day_last_review)
