@@ -33,7 +33,7 @@ df  = df.assign(year_data=date_file.year)
 df = df.drop(['last_review'], axis=1)
 df = df.drop(['neighbourhood_group'], axis=1)
 
-print(df.info())
+df.to_csv(name_file)
 
 
 
