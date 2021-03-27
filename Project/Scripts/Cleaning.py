@@ -25,21 +25,24 @@ def main():
 
             # Completing empty values --- comodin 01012000
             df['reviews_per_month'] = df['reviews_per_month'].fillna(value=0)
-            day_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2000')).dt.day
-            month_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2000')).dt.month
-            year_last_review = pd.to_datetime(df['last_review']).fillna(value=pd.to_datetime('01/01/2000')).dt.year
+
+            df['last_review'] = df['last_review'].fillna(value=pd.to_datetime('01/01/2000'))
+            day_last_review = pd.to_datetime(df['last_review']).dt.day
+            month_last_review = pd.to_datetime(df['last_review']).dt.month
+            year_last_review = pd.to_datetime(df['last_review']).dt.year
 
             # Pulling away last review date in day, month and year ---
-            df  = df.assign(day_last_review=day_last_review)
-            df  = df.assign(month_last_review=month_last_review)
-            df  = df.assign(year_last_review=year_last_review)
+            df = df.assign(day_last_review=day_last_review)
+            df = df.assign(month_last_review=month_last_review)
+            df = df.assign(year_last_review=year_last_review)
 
             # Adding month and year of data file ---
-            df  = df.assign(month_data=date_file.month)
-            df  = df.assign(year_data=date_file.year)
+            df = df.assign(date_data=date_file)
+            df = df.assign(month_data=date_file.month)
+            df = df.assign(year_data=date_file.year)
 
             # Removing last_review and neighbourhood_group columns
-            df = df.drop(['last_review'], axis=1)
+            #df = df.drop(['last_review'], axis=1)
             df = df.drop(['neighbourhood_group'], axis=1)
 
             # Adding dataframe to dataframes list
