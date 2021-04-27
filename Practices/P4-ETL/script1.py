@@ -8,24 +8,20 @@ import pandas as pd
 
 
 def main():
-    # creating a dictionary containing a date
-    dict = {'Date':["2020-06-17", "2020-01-14", 
-                    "2020-09-20", "2020-08-15"]}
-    
-    # converting the dictionary to a 
-    # dataframe
-    df = pd.DataFrame.from_dict(dict)
-    
-    # converting the date to the required 
-    # format
-    df['Date'] = pd.to_datetime(df['Date'],
-                                errors ='coerce')
-    df.astype('int64').dtypes
-    
-    # extracting the week from the date
-    weekNumber = df['Date'].dt.week
-    
-    print(weekNumber)
+    path = './DataSet/'
+    dataframes = []
+
+    for name_file in os.listdir(path + "pph"):
+        datos = pd.read_excel(path + "pph" + "/" + name_file, index_col=0)
+        df = pd.DataFrame(datos)
+
+        
+
+        dataframes.append(df)
+
+    joining = pd.concat(dataframes)
+    joining.to_excel(path + "pph.xls", index=True)
+
 
 if __name__ == "__main__":
     main()
