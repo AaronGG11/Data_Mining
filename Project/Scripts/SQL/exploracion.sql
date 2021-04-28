@@ -53,3 +53,14 @@ SELECT *
 FROM airbnb
 WHERE host_name = 'NULL' 
 OR host_name IS NULL;
+
+
+
+
+SELECT COUNT(*) AS 'Numero de registros'
+FROM hospedaje;
+
+SELECT COUNT(*) AS 'VALORES NULOS'
+FROM hospedaje
+WHERE tipo IS NULL
+OR tipo = 'NULL';
