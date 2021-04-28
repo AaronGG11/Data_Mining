@@ -12,6 +12,7 @@ from datetime import datetime
 def main():
     path = './DataSet/'
     dataframes = []
+    estaciones_id = {}
 
     for name_file in os.listdir(path + "pph"):
         datos = pd.read_excel(path + "pph" + "/" + name_file, index_col=None)
@@ -41,11 +42,16 @@ def main():
         df.insert(loc = 3, column = "SEMANA", value = week_number, allow_duplicates = False)
 
         dataframes.append(df)
-   
-   
+
+    # GETTING STATION ID'S
+    estaciones = pd.read_csv(path + "estaciones.csv", index_col=None)
+    df_estaciones = pd.DataFrame(estaciones)
+    estaciones_id = dict(zip(list(df_estaciones["Clave"]), list(df_estaciones["id"])))
+
+
+    # DATA FRAME TO FACT TABLE
     joining = pd.concat(dataframes).reset_index(drop=True)
 
-    # DATA FRAME TO FECT TABLE
     df_ft = pd.DataFrame(columns=["elemento", "fecha", "anio", "month", "week", "localizacion","medicion"])  
     dict_original_columns = dict(zip(joining.columns.values, range(len(joining.columns.values))))
 
@@ -57,7 +63,7 @@ def main():
                                 joining.iloc[row_index]["ANIO"],
                                 joining.iloc[row_index]["MES"],
                                 joining.iloc[row_index]["SEMANA"],
-                                row_pp,
+                                estaciones_id[row_pp],
                                 joining.iloc[row_index][row_pp]
             ]
 
