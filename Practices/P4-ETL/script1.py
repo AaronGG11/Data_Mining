@@ -72,7 +72,7 @@ def main():
     print(contador)
 
     df_ft.index.name = "id"
-    df_ft.to_excel(path + "pph.xls", index=True)
+    df_ft.to_csv(path + "pph.csv", index=True)
 
 
 
