@@ -53,16 +53,16 @@ def main():
     for row_index in range(0, len(joining)):
         for row_pp in joining.columns.values[4:]:
             df_ft.loc[contador] = ["Precipitación pluvial", 
-                                    joining.iloc[[row_index],dict_original_columns["FECHA"]],
-                                    joining.iloc[[row_index],dict_original_columns["ANIO"]], 
-                                    joining.iloc[[row_index],dict_original_columns["MES"]],
-                                    joining.iloc[[row_index],dict_original_columns["SEMANA"]],
-                                    row_pp,
-                                    joining.iloc[[row_index],dict_original_columns[row_pp]],
+                                joining.iloc[row_index]["FECHA"],
+                                joining.iloc[row_index]["ANIO"],
+                                joining.iloc[row_index]["MES"],
+                                joining.iloc[row_index]["SEMANA"],
+                                row_pp,
+                                joining.iloc[row_index][row_pp]
             ]
 
             contador += 1
-            
+
     print(contador)
 
     df_ft.index.name = "id"
