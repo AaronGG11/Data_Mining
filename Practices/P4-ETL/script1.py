@@ -9,7 +9,6 @@ from datetime import datetime
     SCRIPT FOR CLEANING, TRANSFORMING AND VALIDATE THE DATA
 '''
 
-
 def main():
     path = './DataSet/'
     dataframes = []
@@ -29,19 +28,45 @@ def main():
             df["FECHA"] = df["FECHA"].astype(str)
             df["FECHA"] = pd.to_datetime(df["FECHA"])
 
+        # ADDING YEAR NUMBER COLUMN
+        year_number = df["FECHA"].dt.year
+        df.insert(loc = 1, column = "ANIO", value = year_number, allow_duplicates = False)
+
         # ADDING MONTH NUMBER COLUMN
         month_number = df["FECHA"].dt.month
-        df.insert(loc = 1, column = "MES", value = month_number, allow_duplicates = False)
+        df.insert(loc = 2, column = "MES", value = month_number, allow_duplicates = False)
 
         # ADDING WEEK NUMBER COLUMN
         week_number = df["FECHA"].dt.week
-        df.insert(loc = 2, column = "SEMANA", value = week_number, allow_duplicates = False)
+        df.insert(loc = 3, column = "SEMANA", value = week_number, allow_duplicates = False)
+
         dataframes.append(df)
    
+   
     joining = pd.concat(dataframes).reset_index(drop=True)
-    joining.index.name = "ID"
 
-    joining.to_excel(path + "pph.xls", index=True)
+    # DATA FRAME TO FECT TABLE
+    df_ft = pd.DataFrame(columns=["elemento", "fecha", "anio", "month", "week", "localizacion","medicion"])  
+    dict_original_columns = dict(zip(joining.columns.values, range(len(joining.columns.values))))
+
+    contador = 0
+    for row_index in range(0, len(joining)):
+        for row_pp in joining.columns.values[4:]:
+            df_ft.loc[contador] = ["Precipitación pluvial", 
+                                    joining.iloc[[row_index],dict_original_columns["FECHA"]],
+                                    joining.iloc[[row_index],dict_original_columns["ANIO"]], 
+                                    joining.iloc[[row_index],dict_original_columns["MES"]],
+                                    joining.iloc[[row_index],dict_original_columns["SEMANA"]],
+                                    row_pp,
+                                    joining.iloc[[row_index],dict_original_columns[row_pp]],
+            ]
+
+            contador += 1
+            
+    print(contador)
+
+    df_ft.index.name = "id"
+    df_ft.to_excel(path + "pph.xls", index=True)
 
 
 
