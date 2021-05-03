@@ -16,7 +16,7 @@ SELECT TOP (1000) [elemento]
       ,[anio]
       ,[month]
       ,[week]
-      ,[localizacion]
+      ,[localizacion] 
       ,[medicion]
 FROM [precipitacion_pluvial].[dbo].[pph_min]
 
@@ -64,12 +64,12 @@ ORDER BY "PROMEDIO" DESC
 
 -- {Delegacion}{Mes}
 SELECT [Delegación]
-      ,[month]
+      ,[mes]
       ,AVG([medicion]) AS "PROMEDIO"
 INTO [precipitacion_pluvial].[dbo].[Cube04MonthStationMeasure]
 FROM [precipitacion_pluvial].[dbo].[View01WeekYearStationMeasure]
-GROUP BY [Delegación], [month]
-ORDER BY [Delegación], [month], "PROMEDIO" DESC  
+GROUP BY [Delegación], [mes]
+ORDER BY [Delegación], [mes], "PROMEDIO" DESC  
 
 -- {Delegacion}{Año}
 SELECT [Delegación]
