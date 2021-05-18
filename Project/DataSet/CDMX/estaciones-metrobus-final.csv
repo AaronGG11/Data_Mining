@@ -1,0 +1,212 @@
+estaciones-metrobus
+id,nombre,linea,delegacion 
+0,Altavista,1,1
+1,Álvaro Obregón,1,6
+2,Ayuntamiento,1,14
+3,Bombilla,1,1
+4,Buenavista. 1.,1,6
+5,Campeche,1,6
+6,CCU,1,4
+7,Chilpancingo,1,6
+8,Circuito,1,6
+9,Ciudad de los Deportes,1,3
+10,Ciudad Universitaria,1,4
+11,Colonia del Valle,1,3
+12,Corregidora,1,11
+13,Deportivo 18 de Marzo,1,7
+14,Dr. Gálvez,1,1
+15,Durango,1,6
+16,El Caminero,1,14
+17,El Chopo,1,6
+18,Euzkaro,1,6
+19,Felix Cuevas,1,3
+20,Francia,1,1
+21,Fuentes Brotantes,1,14
+22,Glorieta Insurgentes,1,6
+23,Hamburgo,1,6
+24,Indios Verdes,1,7
+25,José María Velasco,1,1
+26,La Joya,1,14
+27,La Piedad,1,5
+28,La Raza. 1.,1,7
+29,Manuel González,1,6
+30,Nápoles,1,3
+31,Nuevo León,1,6
+32,Olivo,1,1
+33,Parque Hundido,1,3
+34,Perisur,1,4
+35,Plaza de la República,1,6
+36,Poliforum,1,3
+37,Potrero,1,7
+38,Reforma,1,6
+39,Revolución,1,6
+40,Río Churubusco,1,3
+41,San Simón,1,6
+42,Santa Úrsula,1,14
+43,Sonora,1,6
+44,Teatro de los Insurgentes,1,3
+45,Villa Olímpica,1,11
+46,Álamos,2,3
+47,Amores,2,3
+48,Andrés Molina,2,8
+49,Antonio Maceo,2,11
+50,Canal de San Juan,2,9
+51,Canela,2,8
+52,CCH Oriente,2,8
+53,Centro SCOP,2,3
+54,Constitución de Apatzingán,2,8
+55,Coyuya,2,8
+56,De La Salle,2,11
+57,Del Moral,2,9
+58,Doctor Vértiz,2,3
+59,El Rodeo,2,8
+60,Escandón,2,6
+61,Etiopía. 2,2,3
+62,General Antonio de León,2,9
+63,Goma,2,8
+64,Iztacalco,2,8
+65,La Viga,2,8
+66,Las Américas,2,3
+67,Leyes de Reforma,2,9
+68,Nicolás Bravo,2,9
+69,Nuevo León,2,6
+70,Parque Lira,2,11
+71,Patriotismo,2,6
+72,Río Frío,2,8
+73,Río Mayo,2,8
+74,Río Tecolutla,2,9
+75,Rojo Gomez,2,9
+76,Tepalcates,2,9
+77,Terminal Tacubaya. Metrobús. 2,2,11
+78,Tlacotal,2,8
+79,UPIICSA,2,8
+80,Viaducto,2,6
+81,Xola,2,3
+82,Balderas,3,6
+83,Buenavista - 3,3,6
+84,Centro Médico,3,6
+85,Circuito. 3,3,6
+86,Coltongo,3,2
+87,Cuauhtémoc,3,6
+88,Cuitláhuac,3,7
+89,Dr. Márquez,3,6
+90,Guerrero,3,6
+91,Héroe de Nacozari,3,7
+92,Hidalgo,3,6
+93,Hospital General,3,6
+94,Hospital La Raza,3,7
+95,Jardín Pushkin,3,6
+96,Juárez. 3,3,6
+97,Júpiter,3,2
+98,La Patera,3,7
+99,La Raza,3,2
+100,Magdalena La Salinas,3,7
+101,Metrobus Tenayuca,3,7
+102,Mina,3,6
+103,Montevideo,3,7
+104,Obrero Mundial,3,3
+105,Poniente 128,3,7
+106,Poniente 134,3,7
+107,Poniente 146,3,2
+108,Progreso Nacional,3,7
+109,Ricardo Flores Magón,3,6
+110,San José de la Escalera,3,7
+111,Terminal Etiopía-Plaza de la Transparencia,3,3
+112,Tlatelolco,3,6
+113,Tolnahuac,3,6
+114,Tres Anegas,3,7
+115,Archivo General de la Nación,4,15
+116,Bellas Artes,4,6
+117,Buenavista. 4,4,6
+118,Cecilio Robelo,4,15
+119,Circunvalación,4,6
+120,Delegación Cuauhtémoc,4,6
+121,Delegación Cuauhtémoc,4,7
+122,Eduardo Molina,4,15
+123,Eje Central_Metrobús_4,4,6
+124,El Salvador,4,6
+125,Expo Reforma,4,6
+126,Ferrocarril de Cintura,4,6
+127,Glorieta de Colón,4,6
+128,Hidalgo. 4,4,6
+129,Hospital Balbuena,4,15
+130,Isabel La Católica,4,6
+131,Juárez_Metrobús_4,4,6
+132,La Merced,4,6
+133,Las Cruces Norte,4,6
+134,Las Cruces Sur,4,6
+135,Mercado de Sonora,4,15
+136,Mixcalco,4,6
+137,Mixcalco,4,6
+138,Moctezuma,4,15
+139,Morelos,4,15
+140,Museo de la Ciudad,4,6
+141,Museo San Carlos,4,6
+142,Pino Suárez,4,6
+143,Plaza de la República,4,6
+144,Plaza San Juan,4,6
+145,Puente de Alvarado,4,6
+146,República de Argentina,4,6
+147,República de Chile,4,6
+148,Teatro Blanquita,4,6
+149,Teatro del Pueblo,4,6
+150,Terminal 1 - Aeropuerto,4,15
+151,Terminal 2 - Aeropuerto,4,3
+152,Terminal San Lázaro,4,15
+153,Vocacional 5,4,6
+154,Vocacional 5,4,6
+155,314. Memorial New's Divine,5,7
+156,5 de Mayo,5,7
+157,Archivo General,5,15
+158,Canal del Norte,5,15
+159,Deportivo Eduardo Molina,5,15
+160,El Coyol,5,7
+161,Mercado Morelos,5,15
+162,Oriente 101,5,7
+163,Preparatoria 3,5,7
+164,Río Consulado,5,7
+165,Río de los Remedios,5,7
+166,Río Guadalupe,5,7
+167,San Juan de Aragón,5,7
+168,Santa Coleta,5,7
+169,Talismán,5,7
+170,Terminal. San Lázaro. 5,5,15
+171,Vasco de Quiroga,5,7
+172,Victoria,5,7
+173,414,6,7
+174,482,6,7
+175,416 Oriente,6,7
+176,416 Poniente,6,7
+177,Ampliación Providencia,6,7
+178,Casas Alemán,6,7
+179,Colegio de Bachilleres 1,6,2
+180,Colegio de Bachilleres 9,6,7
+181,De Las Culturas,6,2
+182,De los Misterios,6,7
+183,Delegación Gustavo A. Madero,6,7
+184,Deportivo 18 de Marzo,6,7
+185,Deportivo Los Galeana,6,7
+186,El Rosario,6,2
+187,Ferrocarriles Nacionales,6,2
+188,Francisco Morazán,6,7
+189,Gran Canal,6,7
+190,Hospital General La Villa,6,6
+191,Hospital Infantil La Villa,6,7
+192,Instituto del Petróleo,6,7
+193,Instituto Politécnico Nacional,6,7
+194,La Pradera,6,7
+195,La Villa,6,7
+196,Lindavista-Vallejo,6,7
+197,Loreto Fabela,6,7
+198,Martín Carrera,6,7
+199,Montevideo,6,2
+200,Norte 45,6,2
+201,Norte 59,6,2
+202,Pueblo San Juan de Aragón,6,7
+203,Riobamba,6,7
+204,San Bartolo,6,7
+205,San Juan de Aragón,6,7
+206,Tecnoparque,6,2
+207,UAM Azcapotzalco,6,2
+208,Villa de Aragón,6,7
+209,Volcán de Fuego,6,7
