@@ -38,7 +38,7 @@ id,tipo,nombre,categoria,calle_y_numero,colonia,alcaldia,cp
 36,Hotel,Hotel El Diplomático,4 Estrellas,Avenida Insurgentes Sur 1105,Nochebuena,Benito Juárez,3720
 37,Hotel,Hotel Edison,2 Estrellas,Edison 106,Tabacalera,Cuauhtémoc,6030
 38,Hotel,Hotel Plaza Luar,4 Estrellas,Avenida Melchor Ocampo 336,Cuauhtémoc,Cuauhtémoc,6500
-39,Hotel,Hotel Pedregal Palace,5 Estrellas,Anillo Periférico Sur 3487,San Jerónimo Lídice,Magdalena Contreras,10200
+39,Hotel,Hotel Pedregal Palace,5 Estrellas,Anillo Periférico Sur 3487,San Jerónimo Lídice,La Magdalena Contreras,10200
 40,Hotel,Hotel New York,3 Estrellas,Edison 45,Tabacalera,Cuauhtémoc,6030
 41,Hotel,Hotel Montemar,2 Estrellas,Valentín Gómez Farías 53,San Rafael,Cuauhtémoc,6470
 42,Hotel,Isaaya Hotel Boutique,5 Estrellas,Dakota 155,Nápoles,Benito Juárez,3810
@@ -367,7 +367,7 @@ id,tipo,nombre,categoria,calle_y_numero,colonia,alcaldia,cp
 365,Hotel,Suites Contempo,5 Estrellas,Avenida Melchor Ocampo 455,Anzures,Miguel Hidalgo,11590
 366,Hotel,Hotel NH México City Centro Histórico,4 Estrellas,Palma 42,Centro (Área 1),Cuauhtémoc,6000
 367,Hotel,Posada Real de Juárez,2 Estrellas,Tokio 66,Juárez,Cuauhtémoc,6600
-368,Hotel,Hotel Camino Real Pedregal México,5 Estrellas,Periférico Sur 3647,Héroes de Padierna,Magdalena Contreras,10700
+368,Hotel,Hotel Camino Real Pedregal México,5 Estrellas,Periférico Sur 3647,Héroes de Padierna,La Magdalena Contreras,10700
 369,Hotel,Eurostars Zona Rosa Suites,5 Estrellas,Londres 115,Juárez,Cuauhtémoc,6600
 370,Hotel,Hotel Aranjuez,3 Estrellas,Calzada de Tlalpan 413,Álamos,Benito Juárez,3400
 371,Hotel,The Green Park Hotel,5 Estrellas,Constituyentes 99,San Miguel Chapultepec I sección,Miguel Hidalgo,11850
