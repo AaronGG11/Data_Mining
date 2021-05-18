@@ -85,6 +85,9 @@ def main():
     # Removing nan rows
     join.dropna(how="all", inplace=True)
 
+    # updating index id
+    join['id'] = [x for x in range(1, len(join['id']) + 1)]
+
     # saving the new csv file
     join.to_csv(target_directory + target_file, index=False)
 
