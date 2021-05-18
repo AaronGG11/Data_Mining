@@ -3,11 +3,18 @@ import csv
 import datetime
 import pandas as pd 
 import numpy as np
+import itertools
 
 
 
 
 # Main function
+def algo(valor):
+    x = 1 + valor
+
+    return x
+
+
 def main():
     path = './../DataSet/CDMX/'
     target_file = "delegaciones.csv"
@@ -18,7 +25,8 @@ def main():
 
     dictionary = dict(zip(df["Alcaldía"].to_list(), df["id"].to_list()))
 
-    print(dictionary)
+
+    print(df["Alcaldía"].apply((lambda x: algo(1))))
 
 
 
