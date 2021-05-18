@@ -1,0 +1,228 @@
+id,nombre,linea,delegaci�n
+0,Villa Olímpica,1,11
+1,CCU,1,4
+2,Altavista,1,1
+3,Parque Hundido,1,3
+4,Colonia del Valle,1,3
+5,La Piedad,1,3
+6,Campeche,1,6
+7,Sonora,1,6
+8,Álvaro Obregón,1,6
+9,Durango,1,6
+10,Revolución,1,6
+11,Buenavista. Línea 1.,1,6
+12,Potrero,1,7
+13,Nuevo León,2,6
+14,Viaducto,2,6
+15,Centro SCOP,2,3
+16,Xola,2,3
+17,Las Américas,2,3
+18,Canela,2,8
+19,Tlacotal,2,8
+20,UPIICSA,2,8
+21,Rojo Gomez,2,9
+22,Obrero Mundial,3,3
+23,Centro Médico,3,6
+24,Hospital General,3,6
+25,Ricardo Flores Magón,3,6
+26,Tolnahuac,3,6
+27,Magdalena La Salinas,3,7
+28,Poniente 128,3,7
+29,Tres Anegas,3,7
+30,Puente de Alvarado,4,6
+31,Plaza de la República,4,6
+32,Glorieta de Colón,4,6
+33,Vocacional 5,4,6
+34,Eje Central_Metrobús_Línea 4,4,6
+35,Isabel La Católica,4,6
+37,Pino Suárez,4,6
+38,La Merced,4,6
+39,Ferrocarril de Cintura,4,6
+40,Mixcalco,4,6
+41,Teatro del Pueblo,4,6
+42,República de Argentina,4,6
+43,República de Chile,4,6
+44,Hidalgo. Línea 4,4,6
+46,Museo San Carlos,4,6
+47,San Juan de Aragón,5,7
+48,Talismán,5,7
+49,Santa Coleta,5,7
+50,Terminal. San Lázaro. Línea 5,5,15
+51,482,6,7
+52,Casas Alemán,6,7
+53,Hospital General La Villa,6,6
+54,Delegación Gustavo A. Madero,6,7
+55,Hospital Infantil La Villa,6,7
+56,Deportivo 18 de Marzo,6,7
+57,San Bartolo,6,7
+58,Lindavista-Vallejo,6,7
+59,Montevideo,6,2
+60,UAM Azcapotzalco,6,2
+61,La Joya,1,14
+62,Santa Úrsula,1,14
+63,Ayuntamiento,1,14
+64,Corregidora,1,11
+65,Perisur,1,4
+66,Olivo,1,1
+67,Teatro de los Insurgentes,1,3
+68,Felix Cuevas,1,3
+69,Nápoles,1,3
+70,Poliforum,1,3
+71,Glorieta Insurgentes,1,6
+73,San Simón,1,6
+74,Circuito,1,6
+75,La Raza. Línea 1.,1,7
+76,Deportivo 18 de Marzo,1,7
+77,Indios Verdes,1,7
+78,Parque Lira,2,11
+79,Antonio Maceo,2,11
+80,Patriotismo,2,6
+81,Doctor Vértiz,2,3
+82,Andrés Molina,2,8
+83,La Viga,2,8
+84,Coyuya,2,8
+85,El Rodeo,2,8
+86,Río Mayo,2,8
+87,Del Moral,2,9
+88,Leyes de Reforma,2,9
+89,CCH Oriente,2,8
+90,Constitución de Apatzingán,2,8
+91,Canal de San Juan,2,9
+92,Nicolás Bravo,2,9
+93,Tepalcates,2,9
+94,Río Tecolutla,2,9
+95,Dr. Márquez,3,6
+96,Jardín Pushkin,3,6
+97,Cuauhtémoc,3,6
+98,Balderas,3,6
+99,Guerrero,3,6
+100,Tlatelolco,3,6
+101,Circuito. Línea 3,3,6
+102,Hospital La Raza,3,7
+103,La Raza,3,2
+104,Coltongo,3,2
+105,Poniente 134,3,7
+106,Júpiter,3,2
+107,Poniente 146,3,2
+108,Terminal 2 - Aeropuerto,4,3
+109,Delegación Cuauhtémoc,4,6
+110,Puente de Alvarado,4,6
+111,Glorieta de Colón,4,6
+112,Expo Reforma,4,6
+113,Vocacional 5,4,6
+114,Juárez_Metrobús_Línea 4,4,6
+116,Plaza San Juan,4,6
+117,El Salvador,4,6
+118,Las Cruces Sur,4,6
+119,Las Cruces Norte,4,6
+120,Mercado de Sonora,4,15
+121,Cecilio Robelo,4,15
+122,Eduardo Molina,4,15
+123,Hospital Balbuena,4,15
+124,Terminal San Lázaro,4,15
+125,Archivo General de la Nación,4,15
+127,Morelos,4,15
+128,Mixcalco,4,6
+129,República de Argentina,4,6
+130,Teatro Blanquita,4,6
+131,314. Memorial New's Divine,5,7
+132,Vasco de Quiroga,5,7
+133,Río Guadalupe,5,7
+134,Oriente 101,5,7
+135,Deportivo Eduardo Molina,5,15
+136,Mercado Morelos,5,15
+137,Archivo General,5,15
+138,Villa de Aragón,6,7
+139,Colegio de Bachilleres 9,6,7
+140,La Pradera,6,7
+141,Volcán de Fuego,6,7
+142,Ampliación Providencia,6,7
+143,416 Poniente,6,7
+144,Loreto Fabela,6,7
+145,Pueblo San Juan de Aragón,6,7
+146,De los Misterios,6,7
+147,Riobamba,6,7
+148,Instituto Politécnico Nacional,6,7
+149,Norte 45,6,2
+150,Norte 59,6,2
+151,Tecnoparque,6,2
+152,El Caminero,1,14
+153,Fuentes Brotantes,1,14
+154,Ciudad Universitaria,1,4
+155,Dr. Gálvez,1,1
+156,Bombilla,1,1
+157,Francia,1,1
+158,José María Velasco,1,1
+159,Río Churubusco,1,3
+160,Ciudad de los Deportes,1,3
+161,Nuevo León,1,6
+162,Chilpancingo,1,6
+163,Hamburgo,1,6
+164,Reforma,1,6
+165,Plaza de la República,1,6
+166,El Chopo,1,6
+167,Manuel González,1,6
+168,Euzkaro,1,6
+169,Terminal Tacubaya. Metrobús. Línea 2,2,11
+170,De La Salle,2,11
+171,Escandón,2,6
+172,Amores,2,3
+173,Etiopía. Línea 2,2,3
+174,Álamos,2,3
+175,Goma,2,8
+176,Iztacalco,2,8
+177,Río Frío,2,8
+178,General Antonio de León,2,9
+179,Terminal Etiopía-Plaza de la Transparencia,3,3
+180,Juárez. Línea 3,3,6
+181,Hidalgo,3,6
+182,Mina,3,6
+183,Buenavista - Línea 3,3,6
+184,Cuitláhuac,3,7
+185,Montevideo,3,7
+186,La Patera,3,7
+187,Progreso Nacional,3,7
+188,San José de la Escalera,3,7
+189,Metrobus Tenayuca,3,7
+190,Héroe de Nacozari,3,7
+191,Terminal 1 - Aeropuerto,4,15
+192,Buenavista. Línea 4,4,6
+193,Delegación Cuauhtémoc,4,7
+194,Plaza de la República,4,6
+195,Expo Reforma,4,6
+196,Plaza San Juan,4,6
+197,Eje Central_Metrobús_Línea 4,4,6
+198,El Salvador,4,6
+199,Museo de la Ciudad,4,6
+201,Circunvalación,4,6
+202,Mercado de Sonora,4,15
+203,Cecilio Robelo,4,15
+204,Moctezuma,4,15
+205,Terminal San Lázaro,4,15
+206,Morelos,4,15
+207,Ferrocarril de Cintura,4,6
+208,Teatro del Pueblo,4,6
+209,República de Chile,4,6
+210,Teatro Blanquita,4,6
+211,Bellas Artes,4,6
+213,Museo San Carlos,4,6
+214,Río de los Remedios,5,7
+215,5 de Mayo,5,7
+216,El Coyol,5,7
+217,Preparatoria 3,5,7
+218,Victoria,5,7
+219,Canal del Norte,5,15
+220,Río Consulado,5,7
+221,Francisco Morazán,6,7
+222,416 Oriente,6,7
+223,Deportivo Los Galeana,6,7
+224,414,6,7
+225,Gran Canal,6,7
+226,San Juan de Aragón,6,7
+227,Martín Carrera,6,7
+228,La Villa,6,7
+229,Instituto del Petróleo,6,7
+230,Ferrocarriles Nacionales,6,2
+231,De Las Culturas,6,2
+232,Colegio de Bachilleres 1,6,2
+233,El Rosario,6,2
