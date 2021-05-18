@@ -20,13 +20,14 @@ def main():
     start_time = datetime.datetime.now()
 
     path = './../DataSet/AIRBNB/'
+    target_directory = './../DataSet/TARGET/'
     target_file = "airbnb.csv"
     delegaciones_file = './../DataSet/CDMX/delegaciones.csv'
     dataframes = []
 
     # Detelete target file if this exists
-    if os.path.exists(path + target_file):
-        os.remove(path+target_file)
+    if os.path.exists(target_directory + target_file):
+        os.remove(target_directory + target_file)
 
     # Read delegaciones directory
     data = pd.read_csv(delegaciones_file, header=0)
@@ -85,7 +86,7 @@ def main():
     join.dropna(how="all", inplace=True)
 
     # saving the new csv file
-    join.to_csv(path + target_file, index=False)
+    join.to_csv(target_directory + target_file, index=False)
 
     # Swowing data info
     print("\nResumen de archivo objetivo")
