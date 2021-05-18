@@ -7,7 +7,8 @@ def main():
     path = './../Tests/airbnb.csv'
 
     datos = pd.read_csv(path, header=0)
-    print(datos.info())
+    print(datos)
+    #print(datos.info())
     #print(datos.columns.values)
 
 if __name__ == "__main__":

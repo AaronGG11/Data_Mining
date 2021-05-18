@@ -1,5 +1,8 @@
+# Script for AirBnB data cleaning
+
 import os
 import csv
+import datetime
 import pandas as pd 
 import numpy as np
 
@@ -11,12 +14,23 @@ def getDateFromFileName(file_name):
 
 # Main function
 def main():
-    path = './../DataSet/AirBnB/'
+    path = './../DataSet/AIRBNB/'
+    target_file = "airbnb.csv"
     dataframes = []
+
+    start_time = datetime.datetime.now()
+
+    # Detelete target file if this exists
+    if os.path.exists(path + target_file):
+        os.remove(path+target_file)
 
 
     for directory in os.listdir(path):
+        print("\nDirectorio " + directory + " :")
+
         for name_file in os.listdir(path + '/' + directory):
+            print("\tProcesando " + name_file + " ...")
+
             date_file = getDateFromFileName(name_file)
 
             # Getting original data of ---
@@ -53,7 +67,15 @@ def main():
     join = pd.concat(dataframes)
 
     # saving the new csv file
-    join.to_csv(path + "airbnb.csv", index=False)
+    join.to_csv(path + target_file, index=False)
+
+    # Swowing data info
+    print("\nResumen de archivo objetivo")
+    print(join.info())
+
+    end_time = datetime.datetime.now()
+    diference = end_time - start_time 
+    print("\nTiempo de procesamiento: " + str(diference.seconds) + " segundos")
 
 
 if __name__ == "__main__":
