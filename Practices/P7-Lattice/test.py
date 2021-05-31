@@ -4,6 +4,7 @@ import datetime
 import pandas as pd 
 import numpy as np
 from math import factorial
+import pyodbc 
 
 
 
@@ -47,19 +48,24 @@ def main():
     #print(numero_combinaciones(4,2))
     #print_array(combinaciones_intermedias(dimenciones))
 
-    path = './alcaldias.csv'
-    destino = './alcaldias_2.csv'
-    # Read delegaciones directory
-    data = pd.read_csv(path, header=0)
-    df = pd.DataFrame(data)
-    df = df.dropna()
+    # Some other example server values are
+    # server = 'localhost\sqlexpress' # for a named instance
+    # server = 'myserver,port' # to specify an alternate port
+    server = 'localhost' 
+    database = 'airbnb' 
+    username = 'Garcia' 
+    password = '123456' 
+    cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+    cursor = cnxn.cursor()
 
-    df.iat[9,1] = "M. Contreras"
-    df.iat[14,1] = "V. Carranza"
-
-    df.to_csv(destino, index=False)
+    #Sample select query
+    cursor.execute("SELECT * from alcaldias") 
 
 
+    for row in cursor:
+        print(row)
+    
+    
 
 
 
