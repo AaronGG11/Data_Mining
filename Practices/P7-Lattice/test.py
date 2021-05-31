@@ -1,8 +1,7 @@
 from math import factorial
 
 
-dimenciones = ["espacio", "tiempo", "precio", "tipo"]
-result = []
+
 
 
 def potencia(c):
@@ -20,10 +19,32 @@ def combinaciones(c, n):
     return [s for s in potencia(c) if len(s) == n]
 
 
-
 def numero_combinaciones(m, n):
     return factorial(m) // (factorial(n) * factorial(m - n))
 
-imprime_ordenado(combinaciones(dimenciones, 3))
-print(numero_combinaciones(4,2))
+
+
+def combinaciones_intermedias(c):
+    result = []
+    for i in range(2, len(c)):
+        result.extend(combinaciones(c,i))
+
+    return result
+
+
+def print_array(array):
+    for e in array:
+        print(e)
+
+
+def main():
+    dimenciones = ["espacio", "tiempo", "tipo", "dias_minimos"]
+
+    #imprime_ordenado(combinaciones(dimenciones, 3))
+    #print(numero_combinaciones(4,2))
+    print_array(combinaciones_intermedias(dimenciones))
+
+
+if __name__ == "__main__":
+    main()
 
