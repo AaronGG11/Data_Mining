@@ -48,6 +48,7 @@ def main():
     #print_array(combinaciones_intermedias(dimenciones))
 
     path = './delegaciones.csv'
+    destino = './alcaldias.csv'
     # Read delegaciones directory
     data = pd.read_csv(path, header=0)
     df = pd.DataFrame(data)
@@ -55,11 +56,11 @@ def main():
 
     # Adding month and year of data file ---
     # df = df.assign(date_data=date_file)
-    df = df.assign(Country="City")
+    df = df.assign(Country="Mexico")
     df = df.assign(State="Distrito federal")
 
 
-    df.to_csv(path, index=False)
+    df.to_csv(destino, index=False)
 
 
 
