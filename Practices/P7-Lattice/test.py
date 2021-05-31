@@ -54,8 +54,10 @@ def main():
     df = pd.DataFrame(data)
     df = df.dropna()
 
-    print(df.iat(0,1))
+    df.iat[9,1] = "M. Contreras"
+    df.iat[14,1] = "V. Carranza"
 
+    df.to_csv(destino, index=False)
 
 
 
