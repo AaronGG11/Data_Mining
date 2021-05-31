@@ -1,6 +1,9 @@
+import os
+import csv
+import datetime
+import pandas as pd 
+import numpy as np
 from math import factorial
-
-
 
 
 
@@ -42,7 +45,24 @@ def main():
 
     #imprime_ordenado(combinaciones(dimenciones, 3))
     #print(numero_combinaciones(4,2))
-    print_array(combinaciones_intermedias(dimenciones))
+    #print_array(combinaciones_intermedias(dimenciones))
+
+    path = './delegaciones.csv'
+    # Read delegaciones directory
+    data = pd.read_csv(path, header=0)
+    df = pd.DataFrame(data)
+    df = df.dropna()
+
+    # Adding month and year of data file ---
+    # df = df.assign(date_data=date_file)
+    df = df.assign(Country="City")
+    df = df.assign(State="Distrito federal")
+
+
+    df.to_csv(path, index=False)
+
+
+
 
 
 if __name__ == "__main__":
