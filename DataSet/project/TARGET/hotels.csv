@@ -1,0 +1,626 @@
+id,tipo,nombre,categoria,alcaldia
+0,Hotel,Hotel Cuernavaca,2,14
+1,Hotel,City Express Alameda,4,6
+2,Hotel,Hotel Park Nilo,5,6
+3,Hotel,Suites Parioli,4,6
+4,Hotel,Hotel Del Principado,3,6
+5,Hotel,Hotel CLE,4,6
+6,Hotel,Hotel Palace,3,6
+7,Hotel,Hotel Casa Blanca,5,6
+8,Hotel,Hotel Principal,2,6
+9,Hotel,Hotel San Antonio,3,6
+10,Hotel,Hotel Washington,2,6
+11,Hotel,Hotel República,1,6
+12,Hotel,Hotel Zócalo Central,5,6
+13,Hotel,Hotel Ritz,4,6
+14,Hotel,Hotel San Francisco,4,6
+15,Hotel,Hotel Metropol,4,6
+16,Hotel,Hotel Lafayette,2,6
+17,Hotel,Hotel Alcázar,1,6
+18,Hotel,Hotel Campeche,1,6
+19,Hotel,Hotel California,4,6
+20,Hotel,Sheraton María Isabel Hotel & Towers,5,6
+21,Hotel,Hotel Roosevelt,3,6
+22,Hotel,Hotel Camino Real Polanco México,5,11
+23,Hotel,Hotel Jalisco,1,11
+24,Hotel,Tacubaya Hotel y Auto Suites,4,11
+25,Hotel,Hotel El Greco,3,3
+26,Hotel,Hotel Castropol,3,6
+27,Hotel,Hotel Del Prado,5,11
+28,Hotel,Hotel Brasilia,3,7
+29,Hotel,Exe Suites Reforma,5,6
+30,Hotel,Hotel Gin,3,6
+31,Hotel,Krystal Urban Aeropuerto CDMX,5,9
+32,Hotel,Hotel Catedral,4,6
+33,Hotel,Hotel Selina México Downtown,3,6
+34,Hotel,Hotel Roble,3,6
+35,Hotel,Hotel Calvin,2,6
+36,Hotel,Hotel El Diplomático,4,3
+37,Hotel,Hotel Edison,2,6
+38,Hotel,Hotel Plaza Luar,4,6
+39,Hotel,Hotel Pedregal Palace,5,10
+40,Hotel,Hotel New York,3,6
+41,Hotel,Hotel Montemar,2,6
+42,Hotel,Isaaya Hotel Boutique,5,3
+43,Hotel,Hotel Polanco,3,11
+44,Hotel,Hotel El Dorado,2,6
+45,Hotel,Hotel Del Dorado,3,7
+46,Hotel,Hotel Sevilla,4,6
+47,Hotel,Hotel Fleming,3,6
+48,Hotel,Hotel San Martín,3,6
+49,Hotel,Hotel Hilton Aeropuerto Ciudad de México,5,15
+50,Hotel,Gran Hotel Ciudad de México,5,6
+51,Hotel,Hotel Vermont,4,3
+52,Hotel,Hotel Casa Blanca,3,6
+53,Hotel,Hotel Muy,2,6
+54,Hotel,Hotel La Joya,1,6
+55,Hotel,Hotel San Alfonso,1,15
+56,Hotel,Hotel El Patio,2,6
+57,Hotel,Hotel Casa Blanca,1,6
+58,Hotel,Suites Coyoacán,5,3
+59,Hotel,Hotel Navío,2,15
+60,Hotel,Hotel Alvarado,1,6
+61,Hotel,Hotel Paraíso,1,6
+62,Hotel,Hotel Marin / 77,0,6
+63,Hotel,Suites Mi Casa,0,6
+64,Hotel,Hotel Las Vegas,1,6
+65,Hotel,Hotel Miramar,2,3
+66,Hotel,Holiday Inn México Coyoacán,5,3
+67,Hotel,Hotel Torremolinos,4,2
+68,Hotel,Hotel Cien Metros,3,7
+69,Hotel,Hotel Huipulco,3,14
+70,Hotel,Hotel Prohogar,1,2
+71,Hotel,Motel Quinta Loreto,3,2
+72,Hotel,Hotel Sol,2,2
+73,Hotel,Hotel Hipódromo,3,11
+74,Hotel,Hotel Martí,2,11
+75,Hotel,Hotel Moderno,1,6
+76,Hotel,Hotel Rex,3,3
+77,Hotel,Hotel Quinta Las Delicias,2,3
+78,Hotel,Hotel Museo,3,6
+79,Hotel,Hotel La Paloma,2,6
+80,Hotel,Auto Hotel Max,3,6
+81,Hotel,Hotel San Lorenzo,1,6
+82,Hotel,Hotel Riviera,1,6
+83,Hotel,Hotel Goya,1,6
+84,Hotel,Hotel Polly,1,6
+85,Hotel,Hotel Xo Ha,3,14
+86,Hotel,Hotel K 20,3,14
+87,Hotel,Hotel Chopo,2,6
+88,Hotel,Apartamentos Amueblados Colonia Del Valle,2,3
+89,Hotel,Hotel La Villa,2,7
+90,Hotel,Motel La Flor,2,7
+91,Hotel,Hotel Cartagena,3,7
+92,Hotel,Hotel Villa Quijotes,3,7
+93,Hotel,Hotel Faro,3,7
+94,Hotel,Hotel Samil Plaza,4,6
+95,Hotel,Hotel Balbuena,1,15
+96,Hotel,Hotel Condesa,4,3
+97,Hotel,Hotel San Juan,2,6
+98,Hotel,Hotel Durán,0,6
+99,Hotel,Hotel Córdoba,2,15
+100,Hotel,Hotel Campo Real,4,16
+101,Hotel,Hotel Duque,3,15
+102,Hotel,Hotel Castillo,3,3
+103,Hotel,Hotel Del Sur,3,9
+104,Hotel,Hotel Seoul,3,15
+105,Hotel,Hotel Antas,2,6
+106,Hotel,Hotel La Rosa,3,6
+107,Hotel,Hotel Conde,3,6
+108,Hotel,Hotel Gama,0,11
+109,Hotel,Hotel La Casona,5,6
+110,Hotel,Hotel Eje Villas y Suites,3,6
+111,Hotel,Hotel Ribadavia,1,6
+112,Hotel,Hotel Mx Congreso,3,15
+113,Hotel,Hotel Moctezuma,2,7
+114,Hotel,Hotel Del Comercio,0,6
+115,Hotel,Hotel Atenas Plaza,4,9
+116,Hotel,Hotel Marsella,3,6
+117,Hotel,Hotel Detroit,3,6
+118,Hotel,Hotel Dharma,2,6
+119,Hotel,Hotel Ibiza,2,6
+120,Hotel,Hotel España,1,6
+121,Hotel,Hotel Drigales,1,6
+122,Hotel,Apartamentos Amueblados Viga,0,8
+123,Hotel,Hotel Tacuba,2,11
+124,Hotel,Hotel Latino,2,6
+125,Hotel,Hotel Managua,2,6
+126,Hotel,Hotel Habana,2,6
+127,Hotel,Hotel Lira,0,11
+128,Hotel,Hotel Barreda,1,6
+129,Hotel,Hotel Polimpo,2,2
+130,Hotel,Hotel Beethoven,2,6
+131,Hotel,Hotel Cima,2,15
+132,Hotel,Hotel Normandie,3,6
+133,Hotel,Hotel Tres Colonias,1,6
+134,Hotel,Gran Hotel Texas,2,6
+135,Hotel,Hotel Gilbert,2,6
+136,Hotel,Hotel Boston,0,6
+137,Hotel,Hotel Ándes,2,7
+138,Hotel,Hotel Minero Napoleón,0,3
+139,Hotel,Hotel Bahía,1,11
+140,Hotel,Hotel Manolo I,3,6
+141,Hotel,Hotel Nuevo Laredo,3,7
+142,Hotel,Hotel Ciudad Real,2,2
+143,Hotel,Hotel San Lucas,3,6
+144,Hotel,Hotel Playa Internacional,3,6
+145,Hotel,Nuevo Hotel Tijuana,4,3
+146,Hotel,Hotel Oasis,1,9
+147,Hotel,Amueblados Illinois,0,3
+148,Hotel,Hotel Morelos,2,9
+149,Hotel,Hotel Cuba,3,6
+150,Hotel,Hotel Marconi,0,6
+151,Hotel,Hotel Niza,2,6
+152,Hotel,Hotel Agua Caliente,0,8
+153,Hotel,Motel Porto Sol,4,9
+154,Hotel,Hostel Home,0,6
+155,Hotel,Hotel Pasadena Drive Inn,4,3
+156,Hotel,Casa de Huéspedes,0,11
+157,Hotel,Hotel Guadalajara,2,6
+158,Hotel,Suites Marne,3,6
+159,Hotel,Hotel Motel Misión Macen,3,16
+160,Hotel,Hotel Novotel México Santa Fe,4,1
+161,Hotel,Hotel La Luna,3,14
+162,Hotel,Hotel & Villas Franklin,4,11
+163,Hotel,City Express Suites Anzures,5,11
+164,Hotel,Hotel Suites Reforma,5,6
+165,Hotel,Grand Chapultepec Residencial,5,6
+166,Hotel,Hotel Condesa DF,5,6
+167,Hotel,Hostal Amigo,0,6
+168,Hotel,Villas Princess Hotel,5,8
+169,Hotel,Greene's Tours Suite,0,1
+170,Hotel,Le Meridien México City,5,6
+171,Hotel,Hostel Zona Rosa,0,6
+172,Hotel,Hotel Avilla Suites,3,6
+173,Hotel,City Express Plus Reforma El Ángel,4,6
+174,Hotel,NH Collection Santa Fe,4,5
+175,Hotel,Hostal Regina,0,6
+176,Hotel,Holiday Inn Express México Santa Fe,4,1
+177,Hotel,México City Hostel,0,6
+178,Hotel,Wyndham Garden México City Polanco,4,11
+179,Hotel,Courtyard By Marriott México City Airport,4,15
+180,Hotel,Hotel Downtown,3,6
+181,Hotel,Aztic Hotel y Suites Ejecutivas,3,14
+182,Hotel,México City Hostel Suites,0,6
+183,Hotel,Hotel Amigo Zócalo,3,6
+184,Hotel,Hotel Stadia Suites Santa Fe,5,5
+185,Hotel,Casa San Ildefonso,0,6
+186,Hotel,La Valise Hotel,5,6
+187,Hotel,Hotel Carlota,4,6
+188,Hotel,Hotel Macao,1,6
+189,Hotel,Hotel Waikiki,1,6
+190,Hotel,MOTEL QUINTA MARGARITA S.A. DE C.V.,2,9
+191,Hotel,Motel Quinta Bugambilias S.A. de C.V.,2,6
+192,Hotel,One Ciudad de México Periférico Sur,3,4
+193,Hotel,Hotel El Parque México,5,6
+194,Hotel,Villa Condesa,5,6
+195,Hotel,DoubleTree by Hilton México City Santa Fe,5,1
+196,Hotel,Fiesta Inn Insurgentes Sur,4,3
+197,Hotel,Suites Georgio,4,6
+198,Hotel,Suites Capri Sevilla,4,6
+199,Hotel,Hotel Histórico Central,4,6
+200,Hotel,City Express Plus Periférico Sur Tlalpan,4,14
+201,Hotel,Casa En Reforma,3,6
+202,Hotel,Suites Capri Polanco,3,11
+203,Hotel,Block Suites,3,6
+204,Hotel,Casa de Huéspedes Amueblados Amado Nervo,0,6
+205,Hotel,Four Seasons Hotel México D. F.,5,6
+206,Hotel,Radisson Paraíso Hotel México D.F.,5,14
+207,Hotel,Hotel Camino Real Aeropuerto,5,15
+208,Hotel,Hilton México City Reforma,5,6
+209,Hotel,Stara Hamburgo,5,6
+210,Hotel,Fiesta Inn Forum Buenavista,4,6
+211,Hotel,City Express CDMX La Villa,4,7
+212,Hotel,Domingo Santo Hotel Boutique,3,6
+213,Hotel,"Umbral, Curio Collection by Hilton",5,6
+215,Hotel,Hotel NH Collection México City Reforma,4,6
+216,Hotel,Hotel El Salvador,3,6
+217,Hotel,Hotel María Cristina,4,6
+218,Hotel,Hotel Plaza Florencia,4,6
+219,Hotel,Hotel Holiday Inn & Suites México Zona Rosa,5,6
+220,Hotel,Posada Viena Hotel,4,6
+221,Hotel,Hotel Imperial Reforma,5,6
+222,Hotel,Hotel Marquis Reforma,5,6
+223,Hotel,Hotel Mallorca,3,6
+224,Hotel,City Express Junior Ciudad de México Sullivan,4,6
+225,Hotel,Apartamentos Madrid Once,0,6
+226,Hotel,Hotel Uxmal,3,6
+227,Hotel,Hotel Plaza Madrid,4,6
+228,Hotel,Hotel Congreso,1,6
+229,Hotel,Hotel Rioja,2,6
+230,Hotel,Hotel Canadá,3,6
+231,Hotel,Hotel Majestic Best Western,4,6
+232,Hotel,Hotel Isabel,2,6
+233,Hotel,Hotel Corinto,4,6
+234,Hotel,Hotel Puebla,3,6
+235,Hotel,Hotel MX Roma,3,6
+236,Hotel,Hotel Milán,3,6
+237,Hotel,Hotel Regina,0,6
+238,Hotel,Hotel Capital O Monarca,3,6
+239,Hotel,Hotel Segovia Regency,4,6
+240,Hotel,Hotel Estadio,2,6
+241,Hotel,Hotel Bajío,1,6
+242,Hotel,Hotel Príncipe,3,11
+243,Hotel,Hotel Irys Aleph,3,6
+244,Hotel,Hotel Ermita,2,11
+245,Hotel,Hotel Lirio,1,11
+246,Hotel,Hotel Beverly,5,3
+247,Hotel,Amueblados Minc Centro,3,6
+248,Hotel,Hotel Mónaco,4,6
+249,Hotel,Holiday Inn México Buenavista,5,6
+250,Hotel,Hotel Fiesta Inn Aeropuerto,4,15
+251,Hotel,Hotel Amazonas,3,6
+252,Hotel,We México,5,15
+253,Hotel,Hotel Gran Sol,4,11
+254,Hotel,Hotel Arizona,3,6
+255,Hotel,Hotel Lisboa,4,6
+256,Hotel,Hotel Century Zona Rosa,5,6
+257,Hotel,Hotel Diligencias,3,6
+258,Hotel,Hotel Las Américas,3,6
+259,Hotel,Suites Havre,2,6
+260,Hotel,Hotel Cervantes,1,6
+261,Hotel,Hotel La Marina,2,6
+262,Hotel,Hotel Oxford,2,6
+263,Hotel,Hotel Cónsul,1,6
+264,Hotel,Hotel Covadonga,1,6
+265,Hotel,Apartamentos Amueblados Kansas,0,3
+266,Hotel,Hotel Bernal Díaz,1,6
+267,Hotel,Hotel Portales,2,3
+268,Hotel,Hotel Clavería,2,2
+269,Hotel,Hotel Heraldo,1,2
+270,Hotel,Hotel Río,2,11
+271,Hotel,Hotel Patria,2,6
+272,Hotel,Hotel Kali Ciudadela,3,6
+273,Hotel,Hotel Continental Mexicano,2,6
+274,Hotel,Hotel El Senador,3,6
+275,Hotel,Hotel Parador Real,4,3
+276,Hotel,Hotel Turístico Churubusco,3,4
+277,Hotel,Hotel Rubí,3,14
+278,Hotel,Hotel Caleta,1,6
+279,Hotel,Hotel Tío Sam,1,6
+280,Hotel,Hotel Encanto,3,6
+281,Hotel,Hotel Celta,1,6
+282,Hotel,Hotel Titán,1,6
+283,Hotel,Hotel Pánuco,2,6
+284,Hotel,Hotel Tres Marías,1,6
+285,Hotel,Hotel Plaza Solís,3,6
+286,Hotel,Hotel Coloso,1,6
+287,Hotel,Hotel Cadillac,2,6
+288,Hotel,Hotel Turista Las Flores,3,4
+289,Hotel,Hotel Ex-Hacienda Xaltocan,2,16
+290,Hotel,Hotel Astoria,1,6
+291,Hotel,Hotel Montreal,4,4
+292,Hotel,Hotel Colins,4,9
+293,Hotel,Hotel Vista Alegre,1,7
+294,Hotel,Hotel Universal,1,6
+295,Hotel,Hotel Esla,3,7
+296,Hotel,Hotel Álamos,2,3
+297,Hotel,Hotel Turismo,2,7
+298,Hotel,Hotel Puente,3,15
+299,Hotel,Hotel San Antonio,0,3
+300,Hotel,Hotel Necaxa,0,15
+301,Hotel,Hotel Mazatlán,2,6
+302,Hotel,Hotel San Lorenzo,3,9
+303,Hotel,Hotel Marqués,3,9
+304,Hotel,Hotel Canceleira,4,9
+305,Hotel,Hotel Montecarlo,2,6
+306,Hotel,Hotel La Riviera,3,6
+307,Hotel,Hotel Mexicali,3,6
+308,Hotel,Hotel La Selva,1,6
+309,Hotel,Hotel Jacarandas,3,6
+310,Hotel,Hotel Riva Palacio,1,6
+311,Hotel,Hotel Villa Hermosa,1,6
+312,Hotel,Hotel Piet,0,6
+313,Hotel,Hotel Río de Janeiro,0,6
+314,Hotel,Hotel Del Parque,2,8
+315,Hotel,Hotel Abastos Plaza,4,9
+316,Hotel,Hotel Rossel Plaza,3,8
+317,Hotel,Motel New,1,7
+318,Hotel,Hotel Niza,0,6
+319,Hotel,Motel Real La Viga,4,15
+320,Hotel,Hotel Miño,1,6
+321,Hotel,Hotel Ferrol,2,6
+322,Hotel,Hotel Pisa,3,6
+323,Hotel,Hotel Maga,2,6
+324,Hotel,Hotel Marlyn,1,6
+325,Hotel,Hotel Rosas Moreno,1,6
+326,Hotel,Apartamentos Altamira,1,6
+327,Hotel,Hotel Dalje,1,6
+328,Hotel,Hotel Vista Alegre 1,2,6
+329,Hotel,Hotel Embajadores,1,6
+330,Hotel,Hotel Hidalgo,2,6
+331,Hotel,Hotel Polo,2,6
+332,Hotel,Hotel Único,2,6
+333,Hotel,Apartamentos Amueblados San Antonio,2,3
+334,Hotel,Hotel Laredo,0,6
+335,Hotel,Hotel Geneve,3,11
+336,Hotel,Hotel Ámbar,3,6
+337,Hotel,Hotel La Raza,2,6
+338,Hotel,Hotel Casa Silencio,2,3
+339,Hotel,Hotel Gracia,3,3
+340,Hotel,Hotel Villa de Madrid,3,7
+341,Hotel,Hostel Catedral Mundo Joven,0,6
+342,Hotel,Hotel Apatlaco,3,8
+343,Hotel,Hotel Canadá,0,11
+344,Hotel,Hotel Moctezuma,1,6
+345,Hotel,Hotel Modelo,3,7
+346,Hotel,Hotel Residencia Polanco,5,11
+347,Hotel,Hotel y Villas Pal,4,6
+348,Hotel,Hotel Leo,3,14
+349,Hotel,Casa de La Condesa,4,6
+350,Hotel,Hotel Atlanta,2,6
+351,Hotel,Hotel Pirámides,0,3
+352,Hotel,Hotel Boston Plaza,4,4
+353,Hotel,Suites Del Ángel,5,6
+354,Hotel,Casa Castelar,0,6
+355,Hotel,Basic Hotel,4,6
+356,Hotel,Hotel Victoria,1,6
+357,Hotel,Hotel Fiesta Inn Centro Histórico,4,6
+358,Hotel,Fiesta Inn Insurgentes Viaducto,5,11
+359,Hotel,Condesa Suites,0,6
+360,Hotel,Hotel & Villas Cabanna,3,16
+361,Hotel,Dominion Corporate Suites,5,11
+362,Hotel,Real Azteca,4,4
+363,Hotel,Hotel Suites Embassy,3,6
+364,Hotel,Hotel Pennsylvania,2,6
+365,Hotel,Suites Contempo,5,11
+366,Hotel,Hotel NH México City Centro Histórico,4,6
+367,Hotel,Posada Real de Juárez,2,6
+368,Hotel,Hotel Camino Real Pedregal México,5,10
+369,Hotel,Eurostars Zona Rosa Suites,5,6
+370,Hotel,Hotel Aranjuez,3,3
+371,Hotel,The Green Park Hotel,5,11
+372,Hotel,Suites Obelisk,0,11
+373,Hotel,Hotel Naciones,4,7
+374,Hotel,Residence L'heritage,5,11
+375,Hotel,Hotel Hippodrome,5,6
+376,Hotel,Hotel Monte Casino,3,7
+377,Hotel,Quinta Alma Sofía Hostal Campestre,0,16
+378,Hotel,Plaza Suites México City,5,6
+379,Hotel,Hotel & Suites Ferri,3,7
+380,Hotel,Casa Cranfill,0,6
+381,Hotel,Filadelfia Suites Hotel Boutique,5,3
+382,Hotel,Chillout Flat Bed And Breakfast,0,6
+383,Hotel,City Express Buenavista,4,6
+384,Hotel,City Suites Ciudad de México Santa Fe,4,5
+385,Hotel,One Ciudad de México Alameda,3,6
+386,Hotel,Stara San Ángel Inn,5,1
+387,Hotel,Fiesta Inn Plaza Central Aeropuerto,4,9
+388,Hotel,Hotel y Villas Ajusco,3,14
+389,Hotel,Hotel Bolivar Suites,1,6
+390,Hotel,Suites Florencia Motel S.A. de C.V.,2,8
+391,Hotel,Motel Afrodita,2,7
+392,Hotel,Quinta Inn Motel S.A. de C.V.,2,9
+393,Hotel,Motel Central Inn S.A. de C.V.,2,9
+394,Hotel,City Express Aeropuerto Ciudad de México,4,15
+395,Hotel,Holiday Inn Express Aeropuerto CDMX,4,8
+396,Hotel,AC Hotel Santa Fe,5,5
+397,Hotel,Marriott Reforma,5,6
+398,Hotel,JW Marriott México City Santa Fe,5,1
+399,Hotel,Hotel Coral,4,6
+400,Hotel,Suites Capri Reforma,4,6
+401,Hotel,Suites Capri Colonia Roma,4,6
+402,Hotel,Hotel Plaza Revolución,4,6
+403,Hotel,City Express Central de Abasto,4,9
+404,Hotel,Holiday Inn Express Santa Fe,4,1
+405,Hotel,Hotel Aspen,4,1
+406,Hotel,Hotel Alpes,3,3
+407,Hotel,Suites Newton,3,11
+408,Hotel,Casa de Huéspedes Amueblados Frontera,0,6
+409,Hotel,Hotel Hispano,0,2
+410,Hotel,The Red Tree House,0,6
+411,Hotel,Hotel Geneve Ciudad de México,5,6
+412,Hotel,Hyatt Regency México City,5,11
+413,Hotel,JW Marriott Hotel México City,5,11
+414,Hotel,Hotel Royal Reforma,5,6
+415,Hotel,Holiday Inn Ciudad de México Trade Center,5,3
+416,Hotel,Hotel Real del Sur,5,4
+417,Hotel,Hotel W México City,5,11
+418,Hotel,The Westin Santa Fe,5,1
+419,Hotel,The Host Business Suites,0,3
+420,Hotel,Hotel Boutique Jtower,4,3
+421,Hotel,Living Céfiro by Stara,5,4
+425,Hotel,Hotel Del Ángel,4,6
+426,Hotel,Hotel Bristol,4,6
+427,Hotel,Exe Suites San Marino,5,6
+428,Hotel,Suites Amberes,5,6
+429,Hotel,Hotel Premier,3,6
+430,Hotel,Hotel Reforma Avenue,4,6
+431,Hotel,Suites Nápoles,3,6
+432,Hotel,Hotel Fiesta Americana Reforma,5,6
+433,Hotel,Hotel Emporio,5,6
+434,Hotel,Hotel Astor,4,6
+435,Hotel,Hotel Manalba,3,6
+436,Hotel,Hotel Regente City,4,6
+437,Hotel,Hotel Zamora,0,6
+438,Hotel,Hotel Gillow,4,6
+439,Hotel,Hotel Princess,2,6
+440,Hotel,Stanza Hotel,4,6
+441,Hotel,Hotel Sevilla Palace,5,6
+442,Hotel,Hotel El Castro,3,6
+443,Hotel,Hotel Paraíso,1,6
+444,Hotel,Hotel Benidorm,5,6
+445,Hotel,Hotel Del Rey,3,3
+446,Hotel,Porto Novo Hotel & Suites,4,3
+447,Hotel,Hotel Esperanza,2,3
+448,Hotel,Laila Hotel CDMX,4,6
+449,Hotel,Hotel Bonn,4,11
+450,Hotel,Hotel Ambos Mundos,4,11
+451,Hotel,Hotel Atlante,3,11
+452,Hotel,Hotel Grand Prix,4,8
+453,Hotel,Hotel Stella Maris,4,6
+454,Hotel,Hotel Finisterre,5,4
+455,Hotel,Hotel Bárcelo México Reforma,5,6
+456,Hotel,Sheraton Suites Santa Fe,5,1
+457,Hotel,Hotel Galería Plaza Reforma,5,6
+458,Hotel,Hotel Estoril,4,6
+459,Hotel,Hotel Cozumel,3,6
+460,Hotel,Hotel Oslo,4,6
+461,Hotel,Hotel Del Bosque,4,11
+462,Hotel,Hotel Hidalgo,3,6
+463,Hotel,Hotel El Ejecutivo by Reforma Avenue,4,6
+464,Hotel,Hotel Marbella,4,6
+465,Hotel,Hotel Lord,4,6
+466,Hotel,Ramada Reforma,4,6
+467,Hotel,Hotel Fontán Reforma,4,6
+468,Hotel,Hotel Riazor,4,8
+469,Hotel,Hotel MX Garibaldi,4,6
+470,Hotel,Holiday Inn Plaza Universidad,5,3
+471,Hotel,Hotel Antillas,3,6
+472,Hotel,Hotel Mazoy,1,6
+473,Hotel,Suites San Marco,4,6
+474,Hotel,Hotel San Diego,3,6
+475,Hotel,Hotel Atlampa,3,6
+476,Hotel,Hotel Azores,3,6
+477,Hotel,Hotel Kennedy,0,15
+478,Hotel,Hotel Manolete,1,6
+479,Hotel,Hotel Savoy,1,6
+480,Hotel,Hotel Vigo,3,2
+481,Hotel,Hotel Dos Naciones,3,6
+482,Hotel,Hotel La Milpa,0,7
+483,Hotel,Hotel Nevada,3,6
+484,Hotel,Motel Ermita,3,9
+485,Hotel,Hotel La Fuente,2,6
+486,Hotel,Hotel Jardines de Churubusco,2,4
+487,Hotel,Hotel Progreso,1,11
+488,Hotel,Hotel Triana,1,3
+489,Hotel,Hotel Diana,1,3
+490,Hotel,Hotel Costa del Sol,4,14
+491,Hotel,Hotel Empire,2,6
+492,Hotel,Hotel Durango,2,6
+493,Hotel,Apartamentos Amueblados Alzate,3,6
+494,Hotel,Hotel Taxco,1,6
+495,Hotel,Hotel Mina,1,6
+496,Hotel,Hotel Inn Sur,4,14
+497,Hotel,Hotel Princesa,3,3
+498,Hotel,Hotel & Villas Juan Diego,3,7
+499,Hotel,Hotel El Pilar,3,11
+500,Hotel,Hotel Río Miño,1,15
+501,Hotel,Hotel Olimpo,3,7
+502,Hotel,Hotel Los Cabos,3,7
+503,Hotel,Hotel Turismo,1,7
+504,Hotel,Hotel Platino,2,15
+505,Hotel,Hotel D'Casa,2,15
+506,Hotel,Hotel Plaza Las Torres,2,9
+507,Hotel,Hotel Aeropuerto,3,15
+508,Hotel,Hotel Parque Vía,3,11
+509,Hotel,Hotel Imperio,1,11
+510,Hotel,Hotel Del Sur,0,11
+511,Hotel,Hotel Faro,2,6
+512,Hotel,Motel Los Arcos,3,5
+513,Hotel,Hotel Jamaica,0,6
+514,Hotel,Hotel Lepanto,3,6
+515,Hotel,Hotel Orense,1,6
+516,Hotel,Hotel América,1,6
+517,Hotel,Motel Torre Negra,3,8
+518,Hotel,Auto Hotel Super Star,3,8
+519,Hotel,Hotel Camino Plaza,4,9
+520,Hotel,Hotel San Fernando,1,6
+521,Hotel,Hotel Pigal,3,6
+522,Hotel,Hotel Valencia,0,11
+523,Hotel,Paraiso del Sur Villas & Suites,3,14
+524,Hotel,Hotel Las Glorias,1,11
+525,Hotel,Hotel Balmis,0,6
+526,Hotel,Hotel Del Norte,1,6
+527,Hotel,Hotel Zaragoza,2,6
+528,Hotel,Gran Hotel La Paz,2,6
+529,Hotel,Hotel Jerez,0,15
+530,Hotel,Hotel Corona,1,11
+531,Hotel,Hotel Bolivia,2,6
+532,Hotel,Hotel San Lázaro,2,15
+533,Hotel,Hotel Ancona,1,6
+534,Hotel,Hotel La Toja,1,6
+535,Hotel,Santa Fe Hotel,2,1
+536,Hotel,Hotel Héroes,3,6
+537,Hotel,Centra2 Hotel,3,6
+538,Hotel,Hotel Antenas,3,7
+539,Hotel,Hotel Park Villa,4,11
+540,Hotel,Hotel Pensil,1,11
+541,Hotel,Hotel Madero,1,7
+542,Hotel,Hotel Bellini,2,6
+543,Hotel,Hotel Miguel Ángel,3,6
+544,Hotel,Hotel Andrade,4,6
+545,Hotel,Hotel Soledad,0,6
+546,Hotel,Hotel Cies,2,6
+547,Hotel,Hotel Suido,3,6
+548,Hotel,Hotel Atoyac,1,6
+549,Hotel,Hotel Juárez,2,6
+550,Hotel,Hotel Villa Del Mar,1,6
+551,Hotel,Hotel Consulado,2,11
+552,Hotel,Hotel Templo Mayor,4,6
+553,Hotel,Hotel Nayarit,2,6
+554,Hotel,Hotel Valencia,1,6
+555,Hotel,Hotel Siesta del Sur,4,13
+556,Hotel,Hotel Harare,4,3
+557,Hotel,Hotel Lavanda,2,7
+558,Hotel,Hotel Escorial,1,6
+559,Hotel,Hotel Recreo,1,6
+560,Hotel,Hotel Central,1,6
+561,Hotel,Hotel Río,1,6
+562,Hotel,Hotel Catalina,3,6
+563,Hotel,Hotel Ampudia,2,6
+564,Hotel,Hotel Aviación,1,15
+565,Hotel,Hotel Cadena,0,6
+566,Hotel,Hotel Bugambilias,1,9
+567,Hotel,Hotel Florida,2,6
+568,Hotel,Hotel Plaza Belices,4,6
+569,Hotel,Hotel Ticomán Plaza,3,7
+570,Hotel,Hotel Villas Coloniales,3,2
+571,Hotel,Hotel Norte,3,6
+572,Hotel,Hotel Las Américas,2,6
+573,Hotel,Flowsuites WTC,4,3
+574,Hotel,Hotel Panorama,3,6
+575,Hotel,Hotel Escandón by Kali,4,11
+576,Hotel,Hotel Fiesta Inn Periférico Sur,5,4
+577,Hotel,Hotel Prado Floresta,2,6
+578,Hotel,Hotel Caban,4,16
+579,Hotel,Hotel Corona Real,3,3
+580,Hotel,Holiday Inn Express Hotel & Suites at The WTC,4,3
+581,Hotel,Hotel Four Points by Sheraton México City,5,6
+582,Hotel,City Express EBC Reforma,4,6
+583,Hotel,Camino Real Santa Fe,5,1
+584,Hotel,Hostel Condesa Chapultepec,0,6
+585,Hotel,Hampton Inn & Suites By Hilton Ciudad de México Centro Histórico,5,6
+586,Hotel,Hotel Novit,5,3
+587,Hotel,Holiday Inn & Suites México Médica Sur,5,14
+588,Hotel,NH Collection México City Airport T2,5,15
+589,Hotel,Hotel Room Mate Valentina,4,6
+590,Hotel,One Ciudad de México Patriotismo,3,3
+591,Hotel,Casa Comtesse,0,6
+592,Hotel,Hotel La Casa de la Luna,3,6
+593,Hotel,Comfort Inn Santa Fe Bosques,4,1
+594,Hotel,Suites Masliah,5,11
+595,Hotel,Hilton México City Santa Fe,5,1
+596,Hotel,Ibis Styles México Zona Rosa,3,6
+597,Hotel,Hotel Tryp World Trade Center,4,3
+598,Hotel,Suites Extasis S.A. de C.V.,2,8
+599,Hotel,Motel Tentación S.A. de C.V.,2,9
+600,Hotel,Ibis México Alameda,3,6
+601,Hotel,St. Isidro Corporate Housing,5,11
+602,Hotel,Las Suites Polanco,5,11
+603,Hotel,Holiday Inn Express México Reforma,5,6
+604,Hotel,Hotel Presidente Inter-Continental Santa Fe,5,5
+605,Hotel,Live Aqua Mexico City & Spa,5,5
+606,Hotel,Hotel Viaducto,4,8
+607,Hotel,City Express Plus Insurgentes Sur,4,3
+608,Hotel,Suites Ganges,4,6
+609,Hotel,Wyndham Garden Residences México City,4,6
+610,Hotel,City Express Plus Santa Fe,4,5
+611,Hotel,Hotel Exe Cities Reforma,4,6
+612,Hotel,City Express La Raza,4,2
+613,Hotel,City Express Plus Patio Universidad,4,3
+614,Hotel,Hotel Marlowe,3,6
+615,Hotel,Hotel Fiesta Americana Grand Chapultepec,5,11
+616,Hotel,Hotel Courtyard by Marriott Revolución,5,11
+617,Hotel,Holiday Inn México Dalí Aeropuerto,5,15
+618,Hotel,Hotel Royal Pedregal,5,14
+619,Hotel,Hotel Presidente Inter-Continental Mexico City,5,11
+620,Hotel,Hotel Habita,5,11
+621,Hotel,Crowne Plaza Hotel de México,5,3
+622,Hotel,The St. Regis México City,5,6
+623,Hotel,Hotel Las Alcobas,5,11
+624,Hotel,Anys Hostal y Cafetería,0,6
+625,Hotel,One Ciudad de México La Raza,3,6
+626,Hotel,Sleep Inn Ciudad de México,5,5
+627,Hotel,Casa Pepe Hostal Boutique,0,6
+628,Hotel,Fiesta Americana Viaducto Aeropuerto,5,8

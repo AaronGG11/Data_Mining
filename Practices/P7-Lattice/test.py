@@ -47,22 +47,6 @@ def main():
     #print(numero_combinaciones(4,2))
     #print_array(combinaciones_intermedias(dimenciones))
 
-    path = './delegaciones.csv'
-    destino = './alcaldias.csv'
-    # Read delegaciones directory
-    data = pd.read_csv(path, header=0)
-    df = pd.DataFrame(data)
-    df = df.dropna()
-
-    # Adding month and year of data file ---
-    # df = df.assign(date_data=date_file)
-    df = df.assign(Country="Mexico")
-    df = df.assign(State="Distrito federal")
-
-
-    df.to_csv(destino, index=False)
-
-
 
 
 
