@@ -47,17 +47,6 @@ def main():
     #print(numero_combinaciones(4,2))
     #print_array(combinaciones_intermedias(dimenciones))
 
-    path = './alcaldia.csv'
-    destino = './alcaldias_2.csv'
-    # Read delegaciones directory
-    data = pd.read_csv(path, header=0)
-    df = pd.DataFrame(data)
-    df = df.dropna()
-
-    print(df)
-
-
-
 
 
 if __name__ == "__main__":
