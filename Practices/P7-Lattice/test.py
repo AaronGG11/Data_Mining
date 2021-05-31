@@ -41,16 +41,84 @@ def print_array(array):
         print(e)
 
 
+def generar_nombre_cubo(dimensiones):
+    result = "Cubo_"
+
+    for index, dimension in enumerate(dimensiones):
+        if index != len(dimensiones) - 1:
+            result += dimension + "_"
+        else:
+            result += dimension
+
+    return result
+
+
+
+
+
+def generate_query_1(dimensions):
+    result = "SELECT "
+
+    for index, dimension in enumerate(dimensions):
+        if dimension == "neighbourhood":
+            result += "[airbnb].[dbo].[alcaldias].[Alcaldía], "
+        else: 
+            result += "[airbnb].[dbo].[airbnb].[" + dimension + "], "
+
+    
+    result += "AVG([airbnb].[dbo].[airbnb].[price]) AS 'Precio promedio' "
+    result += "INTO [airbnb].[dbo].[" + generar_nombre_cubo(dimensions) + "] "
+
+    if "neighbourhood" in dimensions:
+        result += "FROM [airbnb].[dbo].[alcaldias] "
+        result += "JOIN [airbnb].[dbo].[airbnb] ON [airbnb].[dbo].[alcaldias].[id] = [airbnb].[dbo].[airbnb].[neighbourhood] "
+    else:
+        result += "FROM [airbnb].[dbo].[airbnb] "
+
+
+    result += "GROUP BY "
+
+    for index, dimension in enumerate(dimensions):
+        if dimension == "neighbourhood":
+            result += "[airbnb].[dbo].[alcaldias].[Alcaldía], "
+        elif index != len(dimensions) -1:
+            result += "[airbnb].[dbo].[airbnb].[" + dimension +"], "
+        else: 
+            result += "[airbnb].[dbo].[airbnb].[" + dimension +"]"
+
+        
+    result += ";"
+
+
+    
+    return result
+
+
+def print_result_query(result):
+    for row in result:
+        print(row)
+
+
+def generar_info_cubo(dimensiones):
+    result = ""
+
+    for dimension in dimensiones:
+        result += "{" + dimension + "}"
+
+    result += "{AVG(precio)}"
+
+    return result
+
+
+
+
+        
+
+    
+
 def main():
-    dimenciones = ["espacio", "tiempo", "tipo", "dias_minimos"]
+    dimenciones = ["neighbourhood", "room_type", "minimum_nights", "year_data", "month_data"]
 
-    #imprime_ordenado(combinaciones(dimenciones, 3))
-    #print(numero_combinaciones(4,2))
-    #print_array(combinaciones_intermedias(dimenciones))
-
-    # Some other example server values are
-    # server = 'localhost\sqlexpress' # for a named instance
-    # server = 'myserver,port' # to specify an alternate port
     server = 'localhost' 
     database = 'airbnb' 
     username = 'Garcia' 
@@ -58,12 +126,22 @@ def main():
     cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
     cursor = cnxn.cursor()
 
-    #Sample select query
-    cursor.execute("SELECT * from alcaldias") 
+
+    for combinacion in combinaciones_intermedias(dimenciones):
+        query = generate_query_1(combinacion)
+        print("Generando cubo: " + str(generar_info_cubo(combinacion)) + " ...")
+        print(query)
+        print("")
+
+        cursor.execute(query)
 
 
-    for row in cursor:
-        print(row)
+
+
+
+
+
+
     
     
 
