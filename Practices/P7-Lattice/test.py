@@ -7,7 +7,6 @@ from math import factorial
 import pyodbc 
 
 
-
 def potencia(c):
     if len(c) == 0:
         return [[]]
@@ -25,7 +24,6 @@ def combinaciones(c, n):
 
 def numero_combinaciones(m, n):
     return factorial(m) // (factorial(n) * factorial(m - n))
-
 
 
 def combinaciones_intermedias(c):
@@ -51,8 +49,6 @@ def generar_nombre_cubo(dimensiones):
             result += dimension
 
     return result
-
-
 
 
 
@@ -85,12 +81,10 @@ def generate_query_1(dimensions):
             result += "[airbnb].[dbo].[airbnb].[" + dimension +"], "
         else: 
             result += "[airbnb].[dbo].[airbnb].[" + dimension +"]"
-
-        
+     
     result += ";"
 
 
-    
     return result
 
 
@@ -111,11 +105,6 @@ def generar_info_cubo(dimensiones):
 
 
 
-
-        
-
-    
-
 def main():
     dimenciones = ["neighbourhood", "room_type", "minimum_nights", "year_data", "month_data"]
 
@@ -134,17 +123,6 @@ def main():
         print("")
 
         cursor.execute(query)
-
-
-
-
-
-
-
-
-    
-    
-
 
 
 if __name__ == "__main__":
