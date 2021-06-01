@@ -56,28 +56,18 @@ def generate_query_1(dimensions):
     result = "SELECT "
 
     for index, dimension in enumerate(dimensions):
-        if dimension == "neighbourhood":
-            result += "[airbnb].[dbo].[alcaldias].[Alcaldía], "
-        else: 
-            result += "[airbnb].[dbo].[airbnb].[" + dimension + "], "
+        result += "[airbnb].[dbo].[airbnb].[" + dimension + "], "
 
     
     result += "AVG([airbnb].[dbo].[airbnb].[price]) AS 'Precio promedio' "
     result += "INTO [airbnb].[dbo].[" + generar_nombre_cubo(dimensions) + "] "
-
-    if "neighbourhood" in dimensions:
-        result += "FROM [airbnb].[dbo].[alcaldias] "
-        result += "JOIN [airbnb].[dbo].[airbnb] ON [airbnb].[dbo].[alcaldias].[id] = [airbnb].[dbo].[airbnb].[neighbourhood] "
-    else:
-        result += "FROM [airbnb].[dbo].[airbnb] "
+    result += "FROM [airbnb].[dbo].[airbnb] "
 
 
     result += "GROUP BY "
 
     for index, dimension in enumerate(dimensions):
-        if dimension == "neighbourhood":
-            result += "[airbnb].[dbo].[alcaldias].[Alcaldía], "
-        elif index != len(dimensions) -1:
+        if index != len(dimensions) -1:
             result += "[airbnb].[dbo].[airbnb].[" + dimension +"], "
         else: 
             result += "[airbnb].[dbo].[airbnb].[" + dimension +"]"
@@ -123,6 +113,7 @@ def main():
         print("")
 
         cursor.execute(query)
+        cnxn.commit()
 
 
 if __name__ == "__main__":
