@@ -8,6 +8,9 @@ import numpy as np
 dfTraining = pd.read_csv("DataSetTraining.csv")
 dfTesting = pd.read_csv("DataSetTesting.csv")
 
+print(dfTraining.info())
+print(dfTesting.info())
+
  
 X_train = dfTraining[["anio","mes","dia"]]
 y_train=dfTraining.AvgMedicion
@@ -26,6 +29,7 @@ SVR(C=1.0, cache_size=200, coef0=0.0,
   tol=0.001, verbose=False)
 scores = cross_val_score(clf, X_train, y_train, cv = 10)
 res1=clf.predict(X_testing)
+print(clf.score(X_testing, y_testing))
 
 print("---------------------------------------------")
 index=0
@@ -64,6 +68,10 @@ score2=rbf_svc_tunning.score(X_train, y_train)
 crossvalue = cross_val_score(rbf_svc_tunning, X_train, y_train, cv = 10)
 
 res2=rbf_svc_tunning.predict(X_testing)
+print(rbf_svc_tunning.score(X_testing, y_testing))
+
+
+
 index=0
 for element in res2:
     error=(abs((element-y_testing[index]))/y_testing[index])*100
