@@ -4,6 +4,7 @@ from sklearn.svm import SVR
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import precision_score,accuracy_score
 import numpy as np
+from tabulate import tabulate
 
 dfTraining = pd.read_csv("DataSetTraining.csv")
 dfTesting = pd.read_csv("DataSetTesting.csv")
