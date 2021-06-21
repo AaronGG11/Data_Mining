@@ -30,7 +30,7 @@ def main():
     
     main_df = pd.read_csv(path + main_file, usecols=data)
     main_df = main_df.sample(frac = 1)
-    main_df = main_df.head(-1)
+    main_df = main_df.head(1000)
     
     
     # Eliminar valores atipicos de algunas columnas 
